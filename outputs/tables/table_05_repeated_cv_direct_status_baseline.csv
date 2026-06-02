@@ -1,0 +1,10 @@
+model,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,note
+LogisticRegression,0.7926666666666666,0.018153665072253466,0.792011611606552,0.016523715323213967,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+SVC_RBF,0.7690000000000001,0.021404828115793546,0.7557653351645723,0.021299454132938,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+XGBoost,0.8206666666666667,0.021955763606751548,0.7257325468844151,0.025676271910044148,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+HistGradientBoosting,0.8163333333333335,0.021734509170645847,0.723122952897479,0.025375510592945797,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+LightGBM,0.8176666666666665,0.016644985898328513,0.7227488080562606,0.02285384783798283,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+GradientBoosting,0.8273333333333335,0.01745152015027789,0.7189492392150563,0.02339312816775211,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+CatBoost,0.8255000000000001,0.019899748742132396,0.7186115104114336,0.02645088840981561,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+RandomForest,0.8310000000000001,0.018547236990991398,0.717543671458664,0.022868846842952206,Direct status classifier baseline; primary status pipeline is concentration-regression-based.
+ExtraTrees,0.8271666666666666,0.020307360460899114,0.7058228088961835,0.026017626675011462,Direct status classifier baseline; primary status pipeline is concentration-regression-based.

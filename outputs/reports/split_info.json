@@ -1,0 +1,21 @@
+{
+  "n_train": 1600,
+  "n_test": 400,
+  "metal_classes": [
+    "Cd",
+    "Cu",
+    "Hg",
+    "Pb"
+  ],
+  "status_classes": [
+    "Heavy contamination",
+    "Low contamination",
+    "Moderate contamination",
+    "Safe"
+  ],
+  "safety_classes": [
+    "Safe",
+    "Unsafe"
+  ],
+  "stratify_min_class": 75
+}

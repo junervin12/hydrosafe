@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+          Cd       0.63      0.54      0.58       105
+          Cu       0.74      0.74      0.74        98
+          Hg       0.71      0.97      0.82        98
+          Pb       0.56      0.44      0.50        99
+
+    accuracy                           0.67       400
+   macro avg       0.66      0.68      0.66       400
+weighted avg       0.66      0.67      0.66       400

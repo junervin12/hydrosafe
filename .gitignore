@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Large model artifacts
+*.joblib
+*.pkl
+*.keras
+*.h5
+*.pt
+*.onnx
+
+# System files
+.DS_Store
+Thumbs.db

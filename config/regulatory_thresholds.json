@@ -1,0 +1,68 @@
+{
+  "selected_standard": "WHO_2022",
+  "thresholds_mg_L": {
+    "Cd": 0.003,
+    "Pb": 0.01,
+    "Hg": 0.006,
+    "Cu": 2.0
+  },
+  "all_threshold_records": [
+    {
+      "standard": "WHO_2022",
+      "metal": "Cd",
+      "threshold_mg_L": 0.003,
+      "basis": "WHO guideline value for cadmium in drinking water",
+      "type": "guideline"
+    },
+    {
+      "standard": "WHO_2022",
+      "metal": "Pb",
+      "threshold_mg_L": 0.01,
+      "basis": "WHO provisional guideline value for lead in drinking water",
+      "type": "provisional guideline"
+    },
+    {
+      "standard": "WHO_2022",
+      "metal": "Hg",
+      "threshold_mg_L": 0.006,
+      "basis": "WHO guideline value for inorganic mercury in drinking water",
+      "type": "guideline"
+    },
+    {
+      "standard": "WHO_2022",
+      "metal": "Cu",
+      "threshold_mg_L": 2.0,
+      "basis": "WHO health-based/aesthetic guideline value for copper in drinking water",
+      "type": "guideline"
+    },
+    {
+      "standard": "EPA_NPDWR",
+      "metal": "Cd",
+      "threshold_mg_L": 0.005,
+      "basis": "EPA MCL for cadmium",
+      "type": "MCL"
+    },
+    {
+      "standard": "EPA_NPDWR",
+      "metal": "Pb",
+      "threshold_mg_L": 0.01,
+      "basis": "EPA lead action/trigger-level framing; older action level often reported as 0.015 mg/L",
+      "type": "action/trigger level"
+    },
+    {
+      "standard": "EPA_NPDWR",
+      "metal": "Hg",
+      "threshold_mg_L": 0.002,
+      "basis": "EPA MCL for inorganic mercury",
+      "type": "MCL"
+    },
+    {
+      "standard": "EPA_NPDWR",
+      "metal": "Cu",
+      "threshold_mg_L": 1.3,
+      "basis": "EPA copper action level",
+      "type": "action level"
+    }
+  ],
+  "status_rule": "Safe if concentration/threshold <= 1; Low if <=5; Moderate if <=20; Heavy if >20."
+}

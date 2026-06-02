@@ -1,0 +1,4 @@
+pipeline,status_accuracy,status_macro_f1,safety_accuracy,safety_macro_f1
+Predicted metal + predicted concentration,0.8575,0.8128063298490128,0.87,0.6922348484848485
+True/oracle metal + predicted concentration,0.975,0.9489795918367347,0.975,0.9418570847142276
+Direct status classifier baseline,0.8075,0.8141908376253728,,

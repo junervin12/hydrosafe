@@ -1,0 +1,10 @@
+                        precision    recall  f1-score   support
+
+   Heavy contamination       0.91      0.91      0.91       287
+     Low contamination       0.90      0.86      0.88        51
+Moderate contamination       1.00      1.00      1.00        15
+                  Safe       0.45      0.47      0.46        47
+
+              accuracy                           0.86       400
+             macro avg       0.81      0.81      0.81       400
+          weighted avg       0.86      0.86      0.86       400

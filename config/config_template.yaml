@@ -1,0 +1,12 @@
+project_name: HydroSafe
+random_seed: 42
+threshold_standard: WHO_2022
+paths:
+  raw_dataset: data/raw/heavy_metal_dataset_with_target.csv
+  processed_dir: data/processed
+  outputs_dir: outputs
+  models_dir: outputs/models
+  figures_dir: outputs/figures
+  tables_dir: outputs/tables
+kaggle:
+  dataset_slug: colabsss/electrochemical-heavy-metal-sensor-data

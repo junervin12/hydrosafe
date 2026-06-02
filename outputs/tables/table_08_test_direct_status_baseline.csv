@@ -1,0 +1,10 @@
+model,accuracy,macro_f1,macro_roc_auc_ovr,role
+LogisticRegression,0.8075,0.8141908376253728,0.9572505549933832,direct status baseline
+SVC_RBF,0.7975,0.7922639416983523,0.9458708623412246,direct status baseline
+RandomForest,0.8475,0.7647204515944082,0.957254334361465,direct status baseline
+LightGBM,0.84,0.7646763214569648,0.9489428315693866,direct status baseline
+XGBoost,0.84,0.7621840879003042,0.9541892872109703,direct status baseline
+GradientBoosting,0.835,0.7561350972549824,0.9556631824613371,direct status baseline
+HistGradientBoosting,0.8425,0.7549192612403491,0.9512307619376112,direct status baseline
+ExtraTrees,0.855,0.7499607103567499,0.9596143273930227,direct status baseline
+CatBoost,0.83,0.7304873087427344,0.9596407479681974,direct status baseline

@@ -1,0 +1,50 @@
+{
+  "feature_columns": [
+    "Frequency_Hz",
+    "Real_Impedance_ohm",
+    "Imag_Impedance_ohm",
+    "Magnitude_ohm",
+    "Phase_deg",
+    "Charge_Transfer_Resistance_ohm",
+    "Double_Layer_Capacitance_F",
+    "Temperature_C",
+    "pH",
+    "Conductivity_uS_cm",
+    "Real_Impedance_abs",
+    "Imag_Impedance_abs",
+    "Impedance_real_imag_ratio",
+    "Impedance_magnitude_log1p",
+    "Frequency_log10",
+    "Charge_Transfer_Resistance_log1p",
+    "Capacitance_log10_abs",
+    "Conductance_proxy",
+    "Phase_rad",
+    "Phase_sin",
+    "Phase_cos",
+    "Temp_pH_interaction",
+    "Conductivity_pH_ratio",
+    "Rct_Cdl_product",
+    "Normalized_Rct_by_Z"
+  ],
+  "target_columns": [
+    "Metal_Type",
+    "Target",
+    "Concentration_mg_L",
+    "regulatory_threshold_mg_L",
+    "exceedance_ratio",
+    "Contamination_Status_Regulatory",
+    "Safety_Status_Regulatory"
+  ],
+  "metal_column": "Metal_Type",
+  "concentration_column": "Concentration_mg_L",
+  "status_column": "Contamination_Status_Regulatory",
+  "safety_column": "Safety_Status_Regulatory",
+  "threshold_standard": "WHO_2022",
+  "selected_thresholds_mg_L": {
+    "Cd": 0.003,
+    "Pb": 0.01,
+    "Hg": 0.006,
+    "Cu": 2.0
+  },
+  "status_rule": "Safe if concentration/threshold <= 1; Low if <=5; Moderate if <=20; Heavy if >20."
+}

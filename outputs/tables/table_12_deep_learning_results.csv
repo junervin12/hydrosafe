@@ -1,0 +1,5 @@
+model,task,accuracy,macro_f1,R2,MAE,RMSE
+MLP_metal_classifier,metal_classification,0.6,0.5872937631405781,,,
+MLP_direct_status_classifier,direct_status_baseline,0.8425,0.7118979344605382,,,
+MLP_concentration_regressor,concentration_regression,,,0.9707972643237514,0.08818570221431077,0.13294815069170968
+CNN1D_metal_classifier,metal_classification,0.3725,0.31957786832279733,,,

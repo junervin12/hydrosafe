@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "HydroSafe: Digital Twin Framework for Heavy Metal Water Contamination Detection"
+authors:
+  - family-names: "Pratama"
+    given-names: "Muhammad Ijlal Senja"
+  - family-names: "Permana"
+    given-names: "Rian"
+  - family-names: "Firmansyah"
+    given-names: ""
+  - family-names: "Maulana"
+    given-names: "Muhamad Ikbal"
+  - family-names: "Azmi"
+    given-names: "Silmi"
+  - family-names: "Junervin"
+    given-names: ""
+    email: "junervin@unlip.ac.id"
+year: 2026
+version: "1.0.0"
+repository-code: "https://github.com/junervin12/hydrosafe"
+abstract: "Reproducible data and code package for a digital twin framework for heavy metal water contamination detection using electrochemical carbon-nanomaterial sensor-response modeling."
+keywords:
+  - digital twin
+  - heavy metal contamination
+  - deep learning
+  - carbon nanomaterial sensor
+  - water quality monitoring
+license: MIT

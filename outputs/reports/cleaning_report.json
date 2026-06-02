@@ -1,0 +1,46 @@
+{
+  "initial_shape": [
+    2000,
+    13
+  ],
+  "missing_before": {
+    "Metal_Type": 0,
+    "Concentration_mg_L": 0,
+    "Frequency_Hz": 0,
+    "Real_Impedance_ohm": 0,
+    "Imag_Impedance_ohm": 0,
+    "Magnitude_ohm": 0,
+    "Phase_deg": 0,
+    "Charge_Transfer_Resistance_ohm": 0,
+    "Double_Layer_Capacitance_F": 0,
+    "Temperature_C": 0,
+    "pH": 0,
+    "Conductivity_uS_cm": 0,
+    "Target": 0
+  },
+  "duplicates_before": 0,
+  "final_shape": [
+    2000,
+    17
+  ],
+  "missing_after": {
+    "Metal_Type": 0,
+    "Concentration_mg_L": 0,
+    "Frequency_Hz": 0,
+    "Real_Impedance_ohm": 0,
+    "Imag_Impedance_ohm": 0,
+    "Magnitude_ohm": 0,
+    "Phase_deg": 0,
+    "Charge_Transfer_Resistance_ohm": 0,
+    "Double_Layer_Capacitance_F": 0,
+    "Temperature_C": 0,
+    "pH": 0,
+    "Conductivity_uS_cm": 0,
+    "Target": 0,
+    "regulatory_threshold_mg_L": 0,
+    "exceedance_ratio": 0,
+    "Contamination_Status_Regulatory": 0,
+    "Safety_Status_Regulatory": 0
+  },
+  "duplicates_after": 0
+}
